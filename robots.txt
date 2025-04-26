@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ymk10553.github.io/gamecore/sitemap.xml

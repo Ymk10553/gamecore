@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GameCore</title>
+  <link rel="icon" type="image/png" href="ChatGPT Image Apr 25, 2025, 04_08_25 PM.png">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  direction: rtl;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: black;
+}
+
+.background-slideshow {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: -1;
+  pointer-events: none; /* يخلي الخلفية مش قابلة للتفاعل */
+}
+
+.background-slideshow img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  animation: fadeImages 20s infinite;
+}
+
+
+
+    }
+
+    .background-slideshow {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      z-index: -1;
+    }
+
+    .background-slideshow img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0;
+      animation: fadeImages 20s infinite;
+    }
+
+    .background-slideshow img:nth-child(1) { animation-delay: 0s; }
+    .background-slideshow img:nth-child(2) { animation-delay: 5s; }
+    .background-slideshow img:nth-child(3) { animation-delay: 10s; }
+    .background-slideshow img:nth-child(4) { animation-delay: 15s; }
+
+    @keyframes fadeImages {
+      0% { opacity: 0; }
+      10% { opacity: 1; }
+      30% { opacity: 1; }
+      40% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem;
+      background-color: rgba(0, 0, 0, 0.6);
+      font-size: 2.5rem;
+      font-weight: bold;
+      position: relative;
+      z-index: 1;
+      text-transform: uppercase;
+    }
+
+    .latest {
+      text-align: center;
+      padding: 2rem;
+      background-color: rgba(255, 255, 255, 0.05);
+      margin: 2rem auto;
+      width: 90%;
+      max-width: 800px;
+      border-radius: 20px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .game-button {
+      display: block;
+      margin: 2rem auto;
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 10px;
+      background-color: #00bcd4;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      position: relative;
+      z-index: 1;
+    }
+
+    .game-button:hover {
+      background-color: #0097a7;
+    }
+
+    .game-image {
+      display: block;
+      margin: 0 auto;
+      max-width: 300px;
+      border-radius: 20px;
+      position: relative;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="background-slideshow">
+    <img src="https://images6.alphacoders.com/515/515390.jpg" alt="GTA V">
+    <img src="https://images2.alphacoders.com/519/519140.jpg" alt="RDR2">
+    <img src="https://images2.alphacoders.com/522/522315.jpg" alt="Forza Horizon">
+    <img src="https://images4.alphacoders.com/596/596253.jpg" alt="Forza New">
+  </div>
+
+  <header>
+    GameCore
+    <div style="font-size: 1.2rem; margin-top: 0.5rem; font-weight: normal;">
+      منصتك لتحميل ألعابك المفضلة بجودة عالية
+    </div>
+  </header>
+
+  
+
+  <img class="game-image" src="https://picfiles.alphacoders.com/171/17137.jpg" alt="GTA SA">
+  <a href="gta-sa.html">
+    <button class="game-button">تحميل</button>
+  </a>
+   <img class="game-image" src="https://picfiles.alphacoders.com/189/189194.png" alt="nfs carbon">
+  <a href="nfs-c.html">
+    <button class="game-button">تحميل</button>
+  </a>
+  <img class="game-image" src="https://ymk10553.github.io/image/need-for-speed-underground-2-pc.jpg" alt="nfs carbon">
+  <a href="nfs-ug2.html">
+    <button class="game-button">تحميل</button>
+  </a>
+
+</body>
+</html>
+
