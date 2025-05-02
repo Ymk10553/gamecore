@@ -33,7 +33,10 @@
   <loc>https://ymk10553.github.io/gamecore/gta vc.html</loc>
     <priority>0.8</priority>
   </url>
-  <loc>https://ymk10553.github.io/gamecore/gta 3.html</loc>
+  <loc>https://ymk10553.github.io/gamecore/gta-3.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <loc>https://ymk10553.github.io/gamecore/igi-2.html</loc>
     <priority>0.8</priority>
   </url>
 
